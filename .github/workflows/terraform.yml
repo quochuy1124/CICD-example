@@ -14,9 +14,6 @@ env:
 jobs:
   terraform:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: cicd   # bỏ dòng này nếu code nằm ở thư mục gốc repo
 
     steps:
     - name: Checkout code
